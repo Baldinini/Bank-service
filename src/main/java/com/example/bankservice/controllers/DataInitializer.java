@@ -24,11 +24,9 @@ public class DataInitializer {
         Role roleAdmin = new Role();
         roleAdmin.setRoleName(Role.RoleName.ADMIN);
         roleService.save(roleAdmin);
-
         Role roleUser = new Role();
         roleUser.setRoleName(Role.RoleName.USER);
         roleService.save(roleUser);
-
         User admin = new User();
         admin.setName("Bob Smith");
         admin.setDateOfBirth(LocalDate.of(2000, 10, 23));
