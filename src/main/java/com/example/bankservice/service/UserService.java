@@ -3,7 +3,7 @@ package com.example.bankservice.service;
 import com.example.bankservice.model.User;
 
 public interface UserService {
-    void create(User user);
+    void save(User user);
 
     User getById(Long id);
 

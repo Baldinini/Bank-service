@@ -33,6 +33,6 @@ public class DataInitializer {
         admin.setPhoneNumber("0987645327");
         admin.setPassword("1111");
         admin.setRoles(Set.of(roleAdmin));
-        userService.create(admin);
+        userService.save(admin);
     }
 }
